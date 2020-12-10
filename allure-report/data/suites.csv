@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Dec 09 10:08:23 CET 2020","Wed Dec 09 10:08:30 CET 2020","7087","Test Suite","User Tests","GoogleTest","GoogleTest","getTitleTest","getTitleTest",""
+"passed","Wed Dec 09 10:08:38 CET 2020","Wed Dec 09 10:08:42 CET 2020","3793","Test Suite","User Tests","PrimerTest","PrimerTest","spotifyTest","spotifyTest",""
+"passed","Wed Dec 09 10:08:30 CET 2020","Wed Dec 09 10:08:38 CET 2020","7854","Test Suite","User Tests","PrimerTest","PrimerTest","bbcMundo","bbcMundo",""
+"passed","Wed Dec 09 10:08:42 CET 2020","Wed Dec 09 10:08:47 CET 2020","4835","Test Suite","User Tests","PrimerTest","PrimerTest","testing","testing",""

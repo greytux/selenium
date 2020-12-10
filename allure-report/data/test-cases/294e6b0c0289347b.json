@@ -1,0 +1,60 @@
+{
+  "uid" : "294e6b0c0289347b",
+  "name" : "bbcMundo",
+  "fullName" : "PrimerTest.bbcMundo",
+  "historyId" : "f31a30dafbec46c02135d74aecf615fd",
+  "time" : {
+    "start" : 1607504779283,
+    "stop" : 1607504788224,
+    "duration" : 8941
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "PrimerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "PrimerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "bbcMundo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "User Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "PrimerTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-de-Diego.local"
+  }, {
+    "name" : "thread",
+    "value" : "7482@MacBook-Pro-de-Diego.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "294e6b0c0289347b.json",
+  "parameterValues" : [ ]
+}
