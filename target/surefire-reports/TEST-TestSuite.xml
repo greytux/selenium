@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="32.86" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="webdriver.chrome.driver" value="drivers/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/diegobetabel/IdeaProjects/Test/target/test-classes:/Users/diegobetabel/IdeaProjects/Test/target/classes:/Users/diegobetabel/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/diegobetabel/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/diegobetabel/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/diegobetabel/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/diegobetabel/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/diegobetabel/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/diegobetabel/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/diegobetabel/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/diegobetabel/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/diegobetabel/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/diegobetabel/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/diegobetabel/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/diegobetabel/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/diegobetabel/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/diegobetabel/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/diegobetabel/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/diegobetabel/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/diegobetabel/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/diegobetabel/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/diegobetabel/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/diegobetabel/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/diegobetabel/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/diegobetabel/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/diegobetabel/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/diegobetabel/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/diegobetabel/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/Users/diegobetabel/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/Users/diegobetabel/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/Users/diegobetabel/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/Users/diegobetabel/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/Users/diegobetabel/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/Users/diegobetabel/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/Users/diegobetabel/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/Users/diegobetabel/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/Users/diegobetabel/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/Users/diegobetabel/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/Users/diegobetabel/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/diegobetabel/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/Users/diegobetabel/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/Users/diegobetabel/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar:/Users/diegobetabel/.m2/repository/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar:/Users/diegobetabel/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar:/Users/diegobetabel/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.jar:/Users/diegobetabel/.m2/repository/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar:/Users/diegobetabel/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar:/Users/diegobetabel/.m2/repository/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar:/Users/diegobetabel/.m2/repository/io/qameta/allure/allure-testng/2.13.7/allure-testng-2.13.7.jar:/Users/diegobetabel/.m2/repository/io/qameta/allure/allure-java-commons/2.13.7/allure-java-commons-2.13.7.jar:/Users/diegobetabel/.m2/repository/io/qameta/allure/allure-model/2.13.7/allure-model-2.13.7.jar:/Users/diegobetabel/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar:/Users/diegobetabel/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar:/Users/diegobetabel/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/Users/diegobetabel/.m2/repository/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar:/Users/diegobetabel/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/diegobetabel/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/diegobetabel/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar:/Users/diegobetabel/.m2/repository/org/apache/logging/log4j/log4j-core/2.12.1/log4j-core-2.12.1.jar:/Users/diegobetabel/.m2/repository/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1.jar:/Users/diegobetabel/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/diegobetabel/IdeaProjects/Test/target/surefire/surefirebooter6128978031582188820.jar /Users/diegobetabel/IdeaProjects/Test/target/surefire 2020-12-09T13-46-08_441-jvmRun1 surefire1505893700980633861tmp surefire_012999658287834031983tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/diegobetabel/IdeaProjects/Test/target/test-classes:/Users/diegobetabel/IdeaProjects/Test/target/classes:/Users/diegobetabel/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/diegobetabel/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/diegobetabel/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/diegobetabel/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/diegobetabel/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/diegobetabel/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/diegobetabel/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/diegobetabel/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/diegobetabel/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/diegobetabel/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/diegobetabel/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/diegobetabel/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/diegobetabel/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/diegobetabel/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/diegobetabel/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/diegobetabel/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/diegobetabel/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/diegobetabel/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/diegobetabel/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/diegobetabel/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/diegobetabel/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/diegobetabel/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/diegobetabel/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/diegobetabel/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/diegobetabel/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/diegobetabel/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/Users/diegobetabel/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/Users/diegobetabel/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/Users/diegobetabel/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/Users/diegobetabel/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/Users/diegobetabel/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/Users/diegobetabel/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/Users/diegobetabel/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/Users/diegobetabel/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/Users/diegobetabel/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/Users/diegobetabel/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/Users/diegobetabel/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/diegobetabel/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/Users/diegobetabel/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/Users/diegobetabel/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/diegobetabel/.m2/repository/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar:/Users/diegobetabel/.m2/repository/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar:/Users/diegobetabel/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar:/Users/diegobetabel/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.jar:/Users/diegobetabel/.m2/repository/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar:/Users/diegobetabel/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar:/Users/diegobetabel/.m2/repository/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar:/Users/diegobetabel/.m2/repository/io/qameta/allure/allure-testng/2.13.7/allure-testng-2.13.7.jar:/Users/diegobetabel/.m2/repository/io/qameta/allure/allure-java-commons/2.13.7/allure-java-commons-2.13.7.jar:/Users/diegobetabel/.m2/repository/io/qameta/allure/allure-model/2.13.7/allure-model-2.13.7.jar:/Users/diegobetabel/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar:/Users/diegobetabel/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar:/Users/diegobetabel/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/Users/diegobetabel/.m2/repository/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar:/Users/diegobetabel/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/diegobetabel/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/diegobetabel/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar:/Users/diegobetabel/.m2/repository/org/apache/logging/log4j/log4j-core/2.12.1/log4j-core-2.12.1.jar:/Users/diegobetabel/.m2/repository/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1.jar:/Users/diegobetabel/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/diegobetabel"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/diegobetabel/IdeaProjects/Test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/diegobetabel/IdeaProjects/Test/target/surefire/surefirebooter6128978031582188820.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="user.name" value="diegobetabel"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/diegobetabel/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/r2/p3c2ksd50gn82dc5p_3g2qv40000gn/T/"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="/Users/diegobetabel/IdeaProjects/Test"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/diegobetabel/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="getTitleTest" classname="GoogleTest" time="15.143">
+    <system-out><![CDATA[...
+... TestNG 7.0.1 by CÃ©dric Beust (cedric@beust.com)
+...
+
+TEST FAILED
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 13753
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1607517973.954][WARNING]: This version of ChromeDriver has not been tested with Chrome version 87.
+dic. 09, 2020 1:46:14 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN No appenders could be found for logger (GoogleTest).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+  </testcase>
+  <testcase name="bbcMundo" classname="PrimerTest" time="8.487">
+    <system-out><![CDATA[El titulo del sitio es: Noticias - BBC News Mundo
+La url del sitio es: https://www.bbc.com/mundo
+Se encontraron 52 elementos de tipo parrafo
+Parrafo: Hemos realizado cambios importantes a nuestra política de privacidad y cookies y queremos que sepas lo que esto significa para ti y tus datos.
+Parrafo: Tras casi dos años de gobierno interino liderado por Juan Guaidó, Henrique Capriles, dos veces candidato presidencial, da por acabada esa vía y abandera un cambio contra Nicolás Maduro.
+Parrafo: El líder opositor habla con la BBC luego de que el gobierno recuperara la Asamblea Nacional en las elecciones del domingo.
+Parrafo: El país anunció que clausurará la "era de los combustibles fósiles" antes de 2050.
+Parrafo: Unas 100.000 personas están donando la capacidad computacional de sus smartphones a los científicos para ayudar a la investigación sobre la covid-19.
+Parrafo: Son milagrosas, pero hasta los milagros tienen sus límites.
+Parrafo: Recursos y consejos de la Academia BBC para periodistas español.
+Parrafo: © 2020 BBC. La BBC no se hace responsable del contenido de sitios externos. Lee sobre nuestra postura acerca de enlaces externos.
+====================================================
+Se encontraron 112 elementos de tipo parrafo
+Link: Descubre lo que ha cambiado
+Link: BBC News, Mundo
+Link: Ir al contenido
+Link: Página actual,
+Noticias
+Link: América Latina
+Link: Internacional
+Link: EE.UU. 2020
+Link: Hay Festival
+Link: Economía
+Link: Ciencia
+Link: Salud
+Link: Cultura
+Link: Tecnología
+Link: Video
+Link: Centroamérica Cuenta
+Link: PUBLICIDAD
+Link: "La oposición hoy no tiene un líder, no hay un liderazgo, nadie que sea un jefe": Henrique Capriles, en entrevista con BBC Mundo
+Link: "La persecución se va a acrecentar, pero no nos va a detener": Guaidó a la BBC tras las elecciones parlamentarias en Venezuela
+Link: Cómo es la mayor ruta de tráfico de marihuana en Europa (y por qué es tan difícil cerrarla)
+Link: "Vivimos hiperconectados y eso permite que controlen nuestra mente"
+Link: Revés para Trump: la Corte Suprema de EE.UU. rechaza la petición de los republicanos de invalidar la victoria de Biden en Pensilvania
+Link: Dónde y a qué hora podrá verse el eclipse total de Sol del 14 de diciembre
+Link: El experimento que mostró que el agua es tan extraña que en realidad son dos líquidos
+Link: Por qué China y Nepal volvieron a medir la altura del Everest y le agregaron casi un metro a la montaña más alta del mundo
+Link: La investigación por la muerte de la soldado Vanessa Guillén lleva al despido de 14 mandos del Ejército de EE.UU.
+Link: El plan de Japón para que sus ciudadanos encuentren pareja (y se reproduzcan)
+Link: Qué es la "atlantificación" del océano Ártico y por qué preocupa a los científicos
+Link: La remota isla a la que Bangladesh está trasladando a los refugiados rohingya "en contra de su voluntad"
+Link: Reino Unido comienza vacunación masiva contra la covid-19: cómo es el proceso y qué se puede esperar
+Link: La arriesgada carrera de Rusia para vacunar masivamente a sus ciudadanos
+Link: Animación sobre el coronavirus: la forma de la tristeza
+Link: El predecible comportamiento que todos adoptamos cuando nos perdemos
+Link: Por qué están apareciendo "antimonumentos" en México (y cómo reflejan los episodios más oscuros de su historia reciente)
+Link: El sorprendente hallazgo en el fondo del mar de una de las míticas máquinas Enigma de los nazis
+Link: Los efectos que tiene sobre la Tierra un eclipse solar total
+Link: Escuchar,
+BBC Minute, escucha las noticias del día en 60 segundos
+, Duración 1,00
+Link: Las preguntas que deja el triunfo del chavismo en las elecciones parlamentarias en Venezuela
+Link: ¿Cómo sería México si Estados Unidos no se hubiera apropiado de más de la mitad de su territorio en el siglo XIX?
+Link: Cuándo deja de ser contagioso un enfermo de covid-19
+Link: Cómo se rige la Antártida, quién reclama su soberanía y por qué despierta tanto interés
+Link: Cómo es el poderoso "sol artificial" con el que China busca generar energía de fusión nuclear
+Link: 3 interrogantes sobre el futuro de Venezuela que dejan las parlamentarias ganadas por el chavismo
+Link: El chavismo gana las elecciones parlamentarias de Venezuela marcadas por el boicot de la oposición y una masiva abstención
+Link: "Hui de mi marido maltratador en medio de la noche con las chanclas que me prestó mi hija"
+Link: Jadiya, la rica y poderosa mujer que fue clave en el nacimiento del islam
+Link: 4 teorías conspirativas sobre la vacuna del coronavirus desmentidas por expertos
+Link: La fascinante historia de las montañas Kong, la cordillera inexistente que apareció durante un siglo en los mapas
+Link: El espectacular cielo de diciembre: lluvia de meteoritos, la conjunción de Júpiter y Saturno... y un eclipse total de Sol
+Link: “Mis padres adoptivos pensaron que habían hecho un acto de amor. Resultó ser un secuestro”
+Link: El famoso experimento de David Rosenhan que revolucionó la psiquiatría y resultó estar basado en mentiras
+Link: América Latina
+Ver todo
+Link: "La persecución se va a acrecentar, pero no nos va a detener": Guaidó a la BBC tras las elecciones parlamentarias en Venezuela
+Link: Internacional
+Ver todo
+Link: La "histórica" decisión de Dinamarca de poner fin a la exploración de petróleo y gas en su territorio
+Link: Tecnología
+Ver todo
+Link: "Mi teléfono ayuda a investigar sobre la covid-19 mientras duermo"
+Link: Salud
+Ver todo
+Link: Por qué somos incapaces de producir vitaminas y 3 otras cosas que rara vez se cuentan sobre ellas
+Link: Ciencia
+Ver todo
+Link: La cápsula con muestras del asteroide Ryugu recuperada en "perfectas" condiciones
+Link: Por qué el 6 es un número perfecto pero el 7 definitivamente no
+Link: Sociedad y Cultura
+Ver todo
+Link: 5 cosas que quizá no sabías de Selena, la "reina del tex-mex" que murió asesinada por la presidenta de su club de fans
+Link: "Lo maté por gloria personal": las razones y las disculpas del asesino de John Lennon a 40 años de la muerte del músico
+Link: Economía
+Ver todo
+Link: Las ventajas y desventajas de trabajar solo 4 días a la semana
+Link: El alto ejecutivo que renunció a su empleo para dar prioridad a la carrera de su esposa
+Link: En fotos
+Ver todo
+Link: Galería de fotos,
+10 imágenes clave de la vida de Diego Armando Maradona
+Link: Galería de fotos,
+En fotos: El devastador paso del huracán Iota por Centroamérica y el Caribe que deja al menos 38 muertos y miles de personas sin hogar
+Link: Galería de fotos,
+Las imágenes de las manifestaciones en Perú que culminaron con la salida del presidente Manuel Merino
+Link: Galería de fotos,
+Las imágenes de la celebración por el triunfo de Joe Biden en las elecciones presidenciales en Estados Unidos
+Link: El mapa que muestra los resultados de las elecciones en Estados Unidos (y los cinco estados que recuperó Biden)
+Link: Las curiosas imágenes de una escultura que evitó que un tren se cayera tras un accidente
+Link: Información útil para hacer periodismo digital
+Link: Facebook
+Link: YouTube
+Link: Instagram
+Link: Twitter
+Link: Revés para Trump: la Corte Suprema de EE.UU. rechaza la petición de los republicanos de invalidar la victoria de Biden en Pensilvania
+Link: Qué es el Candida auris, el misterioso hongo resistente a los medicamentos que se expande por el mundo (y ya llegó a América Latina)
+Link: Dónde y a qué hora podrá verse el eclipse total de Sol del 14 de diciembre
+Link: El plan de Japón para que sus ciudadanos encuentren pareja (y se reproduzcan)
+Link: "Vivimos hiperconectados y eso permite que controlen nuestra mente"
+Link: Los efectos que tiene sobre la Tierra un eclipse solar total
+Link: Por qué China y Nepal volvieron a medir la altura del Everest y le agregaron casi un metro a la montaña más alta del mundo
+Link: El experimento que mostró que el agua es tan extraña que en realidad son dos líquidos
+Link: Cómo es la mayor ruta de tráfico de marihuana en Europa (y por qué es tan difícil cerrarla)
+Link: "La oposición hoy no tiene un líder, no hay un liderazgo, nadie que sea un jefe": Henrique Capriles, en entrevista con BBC Mundo
+Link: Socios comerciales de BBC Mundo
+Link: BBC News, Mundo
+Link: Por qué puedes confiar en la BBC
+Link: Términos de uso
+Link: Sobre la BBC
+Link: Política de privacidad
+Link: Cookies
+Link: Contacta a la BBC
+Link: AdChoices / Do Not Sell My Info
+Link: Lee sobre nuestra postura acerca de enlaces externos.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 9048
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1607517987.805][WARNING]: This version of ChromeDriver has not been tested with Chrome version 87.
+dic. 09, 2020 1:46:27 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="spotifyTest" classname="PrimerTest" time="3.594">
+    <system-out><![CDATA[El titulo del sitio es: Escuchar lo es todo - Spotify
+La url del sitio es: https://www.spotify.com/es/
+Se encontraron 1 elementos de tipo h1
+Elemento h1: Llévate 3 meses de Premium gratis
+Se encontraron 4 elementos de tipo h2
+Elemento h2: Música sin anuncios, sin conexión y mucho más. Puedes cancelar cuando quieras.
+Elemento h2: 
+Elemento h2: 2020 EN RESUMEN
+Elemento h2: SPOTIFY FREE
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 13908
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1607517996.196][WARNING]: This version of ChromeDriver has not been tested with Chrome version 87.
+dic. 09, 2020 1:46:36 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testing" classname="PrimerTest" time="3.791">
+    <system-out><![CDATA[El titulo del sitio es: Facebook - Entrar o registrarse
+La url del sitio es: https://www.facebook.com/
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 37629
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1607517999.586][WARNING]: This version of ChromeDriver has not been tested with Chrome version 87.
+dic. 09, 2020 1:46:39 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,138 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MacBook-Pro-de-Diego.local",
+    "children" : [ {
+      "name" : "7959@MacBook-Pro-de-Diego.local.main(1)",
+      "children" : [ {
+        "name" : "testing",
+        "uid" : "7c7d1ecb1905de9e",
+        "parentUid" : "597567967b2767f56fb0d55800ee12d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607504922510,
+          "stop" : 1607504927345,
+          "duration" : 4835
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getTitleTest",
+        "uid" : "2be2d3a1159ff089",
+        "parentUid" : "597567967b2767f56fb0d55800ee12d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607504903645,
+          "stop" : 1607504910732,
+          "duration" : 7087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "spotifyTest",
+        "uid" : "5909a792b9c228fb",
+        "parentUid" : "597567967b2767f56fb0d55800ee12d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607504918708,
+          "stop" : 1607504922501,
+          "duration" : 3793
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "bbcMundo",
+        "uid" : "22a0664903f3e0a4",
+        "parentUid" : "597567967b2767f56fb0d55800ee12d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607504910847,
+          "stop" : 1607504918701,
+          "duration" : 7854
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "597567967b2767f56fb0d55800ee12d6"
+    }, {
+      "name" : "7482@MacBook-Pro-de-Diego.local.main(1)",
+      "children" : [ {
+        "name" : "bbcMundo",
+        "uid" : "294e6b0c0289347b",
+        "parentUid" : "4fe7518e3353ba3943580f889420eca3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607504779283,
+          "stop" : 1607504788224,
+          "duration" : 8941
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testing",
+        "uid" : "11677bd6cc8caa21",
+        "parentUid" : "4fe7518e3353ba3943580f889420eca3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607504793152,
+          "stop" : 1607504798333,
+          "duration" : 5181
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getTitleTest",
+        "uid" : "93070df976b156d",
+        "parentUid" : "4fe7518e3353ba3943580f889420eca3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607504770861,
+          "stop" : 1607504779115,
+          "duration" : 8254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "spotifyTest",
+        "uid" : "af059ea91133b615",
+        "parentUid" : "4fe7518e3353ba3943580f889420eca3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607504788235,
+          "stop" : 1607504793137,
+          "duration" : 4902
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4fe7518e3353ba3943580f889420eca3"
+    }, {
+      "name" : "6666@MacBook-Pro-de-Diego.local.main(1)",
+      "children" : [ {
+        "name" : "testing",
+        "uid" : "45409230a281c87a",
+        "parentUid" : "2ed28c39c00eb9d13884e0c82310f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607503701499,
+          "stop" : 1607503708656,
+          "duration" : 7157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2ed28c39c00eb9d13884e0c82310f86e"
+    } ],
+    "uid" : "e25b358cdc1661aa8b162bfdddf81cd4"
+  } ]
+}
