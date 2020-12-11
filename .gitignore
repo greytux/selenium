@@ -31,3 +31,6 @@ hs_err_pid*
 # allure directories
 .allure-report/
 .allure-results/
+
+# target
+target/
