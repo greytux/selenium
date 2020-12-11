@@ -36,14 +36,12 @@ public class GoogleTest {
     }
 
     @Test(description = "Busqueda en Google, acceso a bandcamp y al album demos")
-    public void getTitleTest(){
+    public void getTitleTest() throws InterruptedException {
         Logger log = Logger.getLogger(GoogleTest.class.getName());
         log.setLevel(Level.DEBUG);
 
         WebDriver driver = getDriver("https://www.google.com");
         Allure.addAttachment("Console log: ", "Acceso a la url");
-
-        String title = driver.getTitle();
 
         // Cerrar el popup de inicio de Google
         driver.switchTo().frame(driver.findElement(By.xpath("//iframe[contains(@src, 'consent.google.com')]")));
@@ -57,26 +55,33 @@ public class GoogleTest {
         // Acceder a bandcamp
         driver.findElement(By.xpath("//h3//span[contains(text(),': Music')]")).click();
 
+        // Titulo de la pagina
+        String title = driver.getTitle();
+
         // Acceder al album demos
         driver.findElement(By.xpath("//li//a[contains(@href,'demos')]")).click();
+
+        // Seleccionar cancion '9 TET'
+        driver.findElement(By.xpath("//a[@aria-label='Play 9 TET']")).click();
+        Thread.sleep(6000);
 
         driver.navigate().back();
 
         // Lista de albums
         List<WebElement> albums = driver.findElements(By.xpath("//li[contains(@class,'music-grid-item')]//p"));
-        Allure.addAttachment("Numero de albums: ", ("")+albums.size());
+        Allure.addAttachment("Numero de albums: ", ("") + albums.size());
         Assert.assertEquals(albums.size(), 28);
 
-        for (WebElement album:
+        for (WebElement album :
                 albums) {
             Allure.addAttachment("Album: ", album.getText());
         }
 
-        if(title.equals("Music | King Gizzard & The Lizard Wizard")){
+        if (title.equals("Music | King Gizzard & The Lizard Wizard")) {
             System.out.println("TEST PASSED");
             log.info("TEST PASSED");
             Allure.addAttachment("Console log: ", "TEST PASSED");
-        }else{
+        } else {
             System.out.println("TEST FAILED");
             log.warn("TEST FAILED");
         }
