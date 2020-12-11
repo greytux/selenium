@@ -1,3 +1,8 @@
+import io.qameta.allure.Allure;
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.openqa.selenium.Dimension;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -97,7 +102,7 @@ public class PrimerTest {
         // Lista de links de la página
         List<WebElement> listaLinks = driver.findElements(By.tagName("a"));
 
-        System.out.println("Se encontraron "+listaLinks.size()+" elementos de tipo parrafo");
+        System.out.println("Se encontraron "+listaLinks.size()+" elementos de tipo link");
 
         for (WebElement element :
                 listaLinks) {
@@ -106,6 +111,41 @@ public class PrimerTest {
                 System.out.println("Link: "+element.getText());
             }
         }
+
+        driver.close();
+        driver.quit();
+    }
+
+    @Test(description = "Test de obtencion de medidas de la pantalla de testeo")
+    public void getWindowSizeTest(){
+        Logger log = Logger.getLogger(GoogleTest.class.getName());
+        log.setLevel(Level.DEBUG);
+
+        WebDriver driver = getDriver("https://www.google.es");
+
+        int height = driver.manage().window().getSize().getHeight();
+        int width = driver.manage().window().getSize().getWidth();
+
+        log.info("Window height: "+height);
+        log.info("Window width: "+width);
+
+        Allure.addAttachment("Window height",""+height);
+        Allure.addAttachment("Window width",""+width);
+
+        // Setear nuevas dimensiones (720x480)
+        driver.manage().window().setSize(new Dimension(720, 480));
+
+        height = driver.manage().window().getSize().getHeight();
+        width = driver.manage().window().getSize().getWidth();
+
+        log.info("New window height: "+height);
+        log.info("New window width: "+width);
+
+        Allure.addAttachment("New window height",""+height);
+        Allure.addAttachment("New window width",""+width);
+
+        Assert.assertEquals(height, 480);
+        Assert.assertEquals(width, 720);
 
         driver.close();
         driver.quit();
