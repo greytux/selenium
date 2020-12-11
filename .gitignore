@@ -32,7 +32,7 @@ hs_err_pid*
 .allure-report/
 .allure-results/
 allure-results/
-allure-reports/
+allure-report/
 .allure
 
 # target
