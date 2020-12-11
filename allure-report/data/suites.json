@@ -1,0 +1,73 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Test Suite",
+    "children" : [ {
+      "name" : "User Tests",
+      "children" : [ {
+        "name" : "GoogleTest",
+        "children" : [ {
+          "name" : "Busqueda en Google, acceso a bandcamp y al album demos",
+          "uid" : "c76c7de02a61c822",
+          "parentUid" : "a0787d80275403a9c1973fa6c76314eb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607676090508,
+            "stop" : 1607676103487,
+            "duration" : 12979
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a0787d80275403a9c1973fa6c76314eb"
+      }, {
+        "name" : "PrimerTest",
+        "children" : [ {
+          "name" : "bbcMundo",
+          "uid" : "1222aa3b482ea11",
+          "parentUid" : "141a6b4dd39979292264817b7f8d2c33",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607676103677,
+            "stop" : 1607676111569,
+            "duration" : 7892
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "spotifyTest",
+          "uid" : "e3d970c2d0baaaa",
+          "parentUid" : "141a6b4dd39979292264817b7f8d2c33",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607676111582,
+            "stop" : 1607676114739,
+            "duration" : 3157
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testing",
+          "uid" : "84fe78527488e8e4",
+          "parentUid" : "141a6b4dd39979292264817b7f8d2c33",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607676114742,
+            "stop" : 1607676118454,
+            "duration" : 3712
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "141a6b4dd39979292264817b7f8d2c33"
+      } ],
+      "uid" : "846889c0c6f1720a3ff746b65228a32a"
+    } ],
+    "uid" : "70f4612f25dd624e3fa5910864552138"
+  } ]
+}

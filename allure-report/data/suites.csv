@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Dec 11 09:41:54 CET 2020","Fri Dec 11 09:41:58 CET 2020","3712","Test Suite","User Tests","PrimerTest","PrimerTest","testing","testing",""
+"passed","Fri Dec 11 09:41:43 CET 2020","Fri Dec 11 09:41:51 CET 2020","7892","Test Suite","User Tests","PrimerTest","PrimerTest","bbcMundo","bbcMundo",""
+"passed","Fri Dec 11 09:41:30 CET 2020","Fri Dec 11 09:41:43 CET 2020","12979","Test Suite","User Tests","GoogleTest","GoogleTest","getTitleTest","Busqueda en Google, acceso a bandcamp y al album demos",""
+"passed","Fri Dec 11 09:41:51 CET 2020","Fri Dec 11 09:41:54 CET 2020","3157","Test Suite","User Tests","PrimerTest","PrimerTest","spotifyTest","spotifyTest",""

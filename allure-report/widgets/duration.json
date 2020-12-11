@@ -1,0 +1,41 @@
+[ {
+  "uid" : "84fe78527488e8e4",
+  "name" : "testing",
+  "time" : {
+    "start" : 1607676114742,
+    "stop" : 1607676118454,
+    "duration" : 3712
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1222aa3b482ea11",
+  "name" : "bbcMundo",
+  "time" : {
+    "start" : 1607676103677,
+    "stop" : 1607676111569,
+    "duration" : 7892
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c76c7de02a61c822",
+  "name" : "Busqueda en Google, acceso a bandcamp y al album demos",
+  "time" : {
+    "start" : 1607676090508,
+    "stop" : 1607676103487,
+    "duration" : 12979
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3d970c2d0baaaa",
+  "name" : "spotifyTest",
+  "time" : {
+    "start" : 1607676111582,
+    "stop" : 1607676114739,
+    "duration" : 3157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

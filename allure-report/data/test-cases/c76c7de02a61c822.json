@@ -1,0 +1,252 @@
+{
+  "uid" : "c76c7de02a61c822",
+  "name" : "Busqueda en Google, acceso a bandcamp y al album demos",
+  "fullName" : "GoogleTest.getTitleTest",
+  "historyId" : "3ab2eac46666616362f69500803b5eaa",
+  "time" : {
+    "start" : 1607676090508,
+    "stop" : 1607676103487,
+    "duration" : 12979
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3363d0e4dbe75b39",
+      "name" : "Console log: ",
+      "source" : "3363d0e4dbe75b39.txt",
+      "type" : "text/plain",
+      "size" : 15
+    }, {
+      "uid" : "61cd7ee56afc3b8f",
+      "name" : "Numero de albums: ",
+      "source" : "61cd7ee56afc3b8f.txt",
+      "type" : "text/plain",
+      "size" : 2
+    }, {
+      "uid" : "acd7e8e68505024e",
+      "name" : "Album: ",
+      "source" : "acd7e8e68505024e.txt",
+      "type" : "text/plain",
+      "size" : 4
+    }, {
+      "uid" : "5d1ee9ab69656cb4",
+      "name" : "Album: ",
+      "source" : "5d1ee9ab69656cb4.txt",
+      "type" : "text/plain",
+      "size" : 25
+    }, {
+      "uid" : "a59923dd708dd99e",
+      "name" : "Album: ",
+      "source" : "a59923dd708dd99e.txt",
+      "type" : "text/plain",
+      "size" : 21
+    }, {
+      "uid" : "55dfae8628918dd2",
+      "name" : "Album: ",
+      "source" : "55dfae8628918dd2.txt",
+      "type" : "text/plain",
+      "size" : 21
+    }, {
+      "uid" : "bd1dd23f9e7bb768",
+      "name" : "Album: ",
+      "source" : "bd1dd23f9e7bb768.txt",
+      "type" : "text/plain",
+      "size" : 5
+    }, {
+      "uid" : "bc5b399e4f7fe35",
+      "name" : "Album: ",
+      "source" : "bc5b399e4f7fe35.txt",
+      "type" : "text/plain",
+      "size" : 48
+    }, {
+      "uid" : "2df7f225388d55b4",
+      "name" : "Album: ",
+      "source" : "2df7f225388d55b4.txt",
+      "type" : "text/plain",
+      "size" : 20
+    }, {
+      "uid" : "7481761fd7127663",
+      "name" : "Album: ",
+      "source" : "7481761fd7127663.txt",
+      "type" : "text/plain",
+      "size" : 20
+    }, {
+      "uid" : "3091c64d754f0881",
+      "name" : "Album: ",
+      "source" : "3091c64d754f0881.txt",
+      "type" : "text/plain",
+      "size" : 17
+    }, {
+      "uid" : "34200a8a51e5c95a",
+      "name" : "Album: ",
+      "source" : "34200a8a51e5c95a.txt",
+      "type" : "text/plain",
+      "size" : 54
+    }, {
+      "uid" : "b9e2e56d7cd374fc",
+      "name" : "Album: ",
+      "source" : "b9e2e56d7cd374fc.txt",
+      "type" : "text/plain",
+      "size" : 19
+    }, {
+      "uid" : "da35b6dbe205a27d",
+      "name" : "Album: ",
+      "source" : "da35b6dbe205a27d.txt",
+      "type" : "text/plain",
+      "size" : 8
+    }, {
+      "uid" : "31c3fce9305d3c57",
+      "name" : "Album: ",
+      "source" : "31c3fce9305d3c57.txt",
+      "type" : "text/plain",
+      "size" : 12
+    }, {
+      "uid" : "6d4cc5e4d2a98cf9",
+      "name" : "Album: ",
+      "source" : "6d4cc5e4d2a98cf9.txt",
+      "type" : "text/plain",
+      "size" : 16
+    }, {
+      "uid" : "9e6dc2b24ca6e63a",
+      "name" : "Album: ",
+      "source" : "9e6dc2b24ca6e63a.txt",
+      "type" : "text/plain",
+      "size" : 79
+    }, {
+      "uid" : "92d4586f49c35fb4",
+      "name" : "Album: ",
+      "source" : "92d4586f49c35fb4.txt",
+      "type" : "text/plain",
+      "size" : 22
+    }, {
+      "uid" : "373f08aa8a8fff4a",
+      "name" : "Album: ",
+      "source" : "373f08aa8a8fff4a.txt",
+      "type" : "text/plain",
+      "size" : 55
+    }, {
+      "uid" : "c40c5d2832cb841b",
+      "name" : "Album: ",
+      "source" : "c40c5d2832cb841b.txt",
+      "type" : "text/plain",
+      "size" : 24
+    }, {
+      "uid" : "4b192e32e47d7b9f",
+      "name" : "Album: ",
+      "source" : "4b192e32e47d7b9f.txt",
+      "type" : "text/plain",
+      "size" : 47
+    }, {
+      "uid" : "a89853ae8e1dffc0",
+      "name" : "Album: ",
+      "source" : "a89853ae8e1dffc0.txt",
+      "type" : "text/plain",
+      "size" : 16
+    }, {
+      "uid" : "cf32ddf3fa1c8984",
+      "name" : "Album: ",
+      "source" : "cf32ddf3fa1c8984.txt",
+      "type" : "text/plain",
+      "size" : 27
+    }, {
+      "uid" : "44570faa20208c8e",
+      "name" : "Album: ",
+      "source" : "44570faa20208c8e.txt",
+      "type" : "text/plain",
+      "size" : 9
+    }, {
+      "uid" : "694826ee769b3f6f",
+      "name" : "Album: ",
+      "source" : "694826ee769b3f6f.txt",
+      "type" : "text/plain",
+      "size" : 21
+    }, {
+      "uid" : "2004b3b6dcae0d1",
+      "name" : "Album: ",
+      "source" : "2004b3b6dcae0d1.txt",
+      "type" : "text/plain",
+      "size" : 8
+    }, {
+      "uid" : "de69ac381a8725de",
+      "name" : "Album: ",
+      "source" : "de69ac381a8725de.txt",
+      "type" : "text/plain",
+      "size" : 29
+    }, {
+      "uid" : "4579fde0e2e52ff5",
+      "name" : "Album: ",
+      "source" : "4579fde0e2e52ff5.txt",
+      "type" : "text/plain",
+      "size" : 17
+    }, {
+      "uid" : "173d379bfd985aa",
+      "name" : "Album: ",
+      "source" : "173d379bfd985aa.txt",
+      "type" : "text/plain",
+      "size" : 13
+    }, {
+      "uid" : "d5b95466f5979f0c",
+      "name" : "Album: ",
+      "source" : "d5b95466f5979f0c.txt",
+      "type" : "text/plain",
+      "size" : 21
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 30,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "GoogleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "GoogleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getTitleTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "User Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "GoogleTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-de-Diego.local"
+  }, {
+    "name" : "thread",
+    "value" : "3978@MacBook-Pro-de-Diego.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c76c7de02a61c822.json",
+  "parameterValues" : [ ]
+}
