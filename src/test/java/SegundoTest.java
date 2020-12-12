@@ -65,4 +65,40 @@ public class SegundoTest {
         driver.close();
         driver.quit();
     }
+
+    @Test(description = "EJERCICIO 3, CLASE 2")
+    public void customSalesforceLink() throws InterruptedException {
+        Logger log = Logger.getLogger(GoogleTest.class.getName());
+        log.setLevel(Level.DEBUG);
+
+        WebDriver driver = getDriver("https://login.salesforce.com/");
+
+        // Click en Access my domain
+        driver.findElement(By.xpath("//a[@id='mydomainLink']")).click();
+
+        // Introducir "as" en dominio
+        driver.findElement(By.xpath("//input[@id='mydomain']")).sendKeys("as");
+
+        String customDomain = driver.findElement(By.xpath("//div[@id='mydomain_preview']")).getText();
+
+        Assert.assertEquals(customDomain, "https://as.my.salesforce.com");
+
+        // Click en continue
+        driver.findElement(By.xpath("//button[@name='Continue']")).click();
+        Thread.sleep(2000);
+
+        driver.findElement(By.xpath("//input[@name='username']")).sendKeys("test");
+
+        driver.findElement(By.xpath("//input[@name='password']")).sendKeys("test");
+
+        driver.findElement(By.xpath("//input[@value='Iniciar sesión']")).click();
+        Thread.sleep(2000);
+
+        String loginMessage = driver.findElement(By.xpath("//div[@role='alert']//p")).getText();
+
+        Assert.assertEquals(loginMessage, "No se puede iniciar sesión");
+
+        driver.close();
+        driver.quit();
+    }
 }
