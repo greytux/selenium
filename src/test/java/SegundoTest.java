@@ -23,7 +23,7 @@ public class SegundoTest {
         return driver;
     }
 
-    @Test(description = "Test para recuperar contraseña de Facebook")
+    @Test(description = "EJERCICIO 1, CLASE 2")
     public void forgotAccountTest()  {
         Logger log = Logger.getLogger(GoogleTest.class.getName());
         log.setLevel(Level.DEBUG);
@@ -43,6 +43,60 @@ public class SegundoTest {
         Assert.assertEquals(forgotTitle, "¿Has olvidado la contraseña? | No puedo entrar | Facebook");
 
         Assert.assertNotEquals(forgotTitle, "Facebook - Entrar o registrarse");
+
+        driver.close();
+        driver.quit();
+    }
+
+    @Test(description = "EJERCICIO 2, CLASE 2")
+    public void forgotAccountPartialLinkTest() {
+        Logger log = Logger.getLogger(GoogleTest.class.getName());
+        log.setLevel(Level.DEBUG);
+
+        WebDriver driver = getDriver("https://www.facebook.com");
+
+        driver.findElement(By.xpath("//button[@title='Aceptar todas']")).click();
+
+        driver.findElement(By.partialLinkText("¿Has olvidado la contraseña?")).click();
+        String forgotTitle = driver.getTitle();
+
+        Assert.assertNotEquals(forgotTitle, "Facebook - Entrar o registrarse");
+
+        driver.close();
+        driver.quit();
+    }
+
+    @Test(description = "EJERCICIO 3, CLASE 2")
+    public void customSalesforceLink() throws InterruptedException {
+        Logger log = Logger.getLogger(GoogleTest.class.getName());
+        log.setLevel(Level.DEBUG);
+
+        WebDriver driver = getDriver("https://login.salesforce.com/");
+
+        // Click en Access my domain
+        driver.findElement(By.xpath("//a[@id='mydomainLink']")).click();
+
+        // Introducir "as" en dominio
+        driver.findElement(By.xpath("//input[@id='mydomain']")).sendKeys("as");
+
+        String customDomain = driver.findElement(By.xpath("//div[@id='mydomain_preview']")).getText();
+
+        Assert.assertEquals(customDomain, "https://as.my.salesforce.com");
+
+        // Click en continue
+        driver.findElement(By.xpath("//button[@name='Continue']")).click();
+        Thread.sleep(2000);
+
+        driver.findElement(By.xpath("//input[@name='username']")).sendKeys("test");
+
+        driver.findElement(By.xpath("//input[@name='password']")).sendKeys("test");
+
+        driver.findElement(By.xpath("//input[@value='Iniciar sesión']")).click();
+        Thread.sleep(2000);
+
+        String loginMessage = driver.findElement(By.xpath("//div[@role='alert']//p")).getText();
+
+        Assert.assertEquals(loginMessage, "No se puede iniciar sesión");
 
         driver.close();
         driver.quit();
