@@ -23,7 +23,7 @@ public class SegundoTest {
         return driver;
     }
 
-    @Test(description = "Test para recuperar contraseña de Facebook")
+    @Test(description = "EJERCICIO 1, CLASE 2")
     public void forgotAccountTest()  {
         Logger log = Logger.getLogger(GoogleTest.class.getName());
         log.setLevel(Level.DEBUG);
@@ -41,6 +41,24 @@ public class SegundoTest {
         String forgotTitle = driver.getTitle();
 
         Assert.assertEquals(forgotTitle, "¿Has olvidado la contraseña? | No puedo entrar | Facebook");
+
+        Assert.assertNotEquals(forgotTitle, "Facebook - Entrar o registrarse");
+
+        driver.close();
+        driver.quit();
+    }
+
+    @Test(description = "EJERCICIO 2, CLASE 2")
+    public void forgotAccountPartialLinkTest() {
+        Logger log = Logger.getLogger(GoogleTest.class.getName());
+        log.setLevel(Level.DEBUG);
+
+        WebDriver driver = getDriver("https://www.facebook.com");
+
+        driver.findElement(By.xpath("//button[@title='Aceptar todas']")).click();
+
+        driver.findElement(By.partialLinkText("¿Has olvidado la contraseña?")).click();
+        String forgotTitle = driver.getTitle();
 
         Assert.assertNotEquals(forgotTitle, "Facebook - Entrar o registrarse");
 
